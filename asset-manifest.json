@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mitla/static/css/main.f70b3ea6.css",
-    "main.js": "/mitla/static/js/main.de490fcd.js",
+    "main.css": "/mitla/static/css/main.89a35632.css",
+    "main.js": "/mitla/static/js/main.883e1135.js",
     "static/media/bg.svg": "/mitla/static/media/bg.a1f5f19d6a38e1b31a1c.svg",
     "static/media/Rectangle 88.svg": "/mitla/static/media/Rectangle 88.758b328eb06b45fb618c85024a603195.svg",
     "static/media/Rectangle 89.svg": "/mitla/static/media/Rectangle 89.d98c6ec3e70ad19b6e01aab0a3370b79.svg",
@@ -69,11 +69,11 @@
     "static/media/call.svg": "/mitla/static/media/call.36c76b3547e323fa6539878ff3859dde.svg",
     "index.html": "/mitla/index.html",
     "static/media/cleaningType.svg": "/mitla/static/media/cleaningType.98a1c739c6a33308d3423b89893162e8.svg",
-    "main.f70b3ea6.css.map": "/mitla/static/css/main.f70b3ea6.css.map",
-    "main.de490fcd.js.map": "/mitla/static/js/main.de490fcd.js.map"
+    "main.89a35632.css.map": "/mitla/static/css/main.89a35632.css.map",
+    "main.883e1135.js.map": "/mitla/static/js/main.883e1135.js.map"
   },
   "entrypoints": [
-    "static/css/main.f70b3ea6.css",
-    "static/js/main.de490fcd.js"
+    "static/css/main.89a35632.css",
+    "static/js/main.883e1135.js"
   ]
 }
