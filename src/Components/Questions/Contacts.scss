@@ -1,6 +1,10 @@
 .contacts {
   @include center;
   gap: 10px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   
   &__button {
   width: 200px;

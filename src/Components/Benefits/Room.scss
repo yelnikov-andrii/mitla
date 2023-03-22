@@ -8,6 +8,7 @@
 
   @media (max-width: 768px) {
     width: 100%;
+    padding: 52px 5px 44px 5px;
  }
 
   &__name {
@@ -45,5 +46,9 @@
     line-height: 22px;
     text-align: center;
     color: $white;
+
+    @media (max-width: 768px) {
+      width: 100%;
+   }
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
+import { Contacts } from './Contacts';
 import exclude from './Exclude.svg';
 import messanger from './Messanger.svg';
 import whatsapp from './whatsapp.svg';
@@ -108,26 +109,7 @@ export const Questions = () => {
         <h5 className='questions__titleh5'>
           Служба поддержки 24/7
         </h5>
-        <div className='questions__buttons'>
-          {contacts.map(contact => (
-            <a 
-              className='questions__button'
-              style={{
-                background: `${contact.color}`
-              }}
-              href='/'
-              key={contact.name}
-            >
-              <img 
-                src={contact.img}
-                alt=""
-              />
-              <p className='m-0'>
-                {contact.name}
-              </p>
-            </a>
-          ))}
-        </div>
+        <Contacts />
       </Container>
     </section>
   );
