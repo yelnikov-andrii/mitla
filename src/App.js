@@ -3,6 +3,7 @@ import { AddititonalServices } from './Components/AdditionalServices/Addititonal
 import { Benefits } from './Components/Benefits/Benefits';
 import { Cities } from './Components/Cities/Cities';
 import { Cleaning } from './Components/Cleaning/Cleaning';
+import { Footer } from './Components/Footer/Footer';
 import { Header } from './Components/Header/Header';
 import { Main } from './Components/Main/Main';
 import { News } from './Components/News/News';
@@ -25,6 +26,7 @@ function App() {
       <Partners />
       <Cities />
       <News />
+      <Footer />
     </div>
   );
 }

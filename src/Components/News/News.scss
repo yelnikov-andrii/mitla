@@ -9,4 +9,50 @@
     color: $black;
     margin: 0 0 30px 0;
    }
+
+   &__list {
+    display: flex;
+    gap: 30px;
+    margin: 0 0 135px 0;
+   }
+
+   &__item {
+    width: calc((100% - 60px) / 3);
+   }
+
+   &__img {
+    width: 100%;
+    margin: 0 0 30px 0;
+   }
+
+   &__date {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: $greenBlue;
+    margin: 0 0 9px 0;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    color: $black;
+  }
+
+  &__preview {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: $black;
+  }
+
+  &__title2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    color: $black;
+    margin: 80px 0 20px;
+  }
 }

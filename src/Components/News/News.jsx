@@ -3,6 +3,8 @@ import { Container } from 'react-bootstrap';
 import img1 from './Rectangle 88.svg';
 import img2 from './Rectangle 89.svg';
 import img3 from './Rectangle 90.svg';
+import { Calculator } from '../Main/Calculator';
+import { Contacts } from '../Questions/Contacts';
 
 export const News = () => {
   const news = [
@@ -33,23 +35,32 @@ export const News = () => {
         </h4>
         <div className='news__list'>
           {news.map(newsItem => (
-            <div>
+            <div className='news__item'>
               <img 
                 src={newsItem.img}
                 alt=""
+                className='news__img'
               />
-              <p>
+              <p className='news__date'>
                 {newsItem.date}
               </p>
-              <p>
+              <p className='news__name'>
                 {newsItem.name}
               </p>
-              <p>
+              <p className='news__preview'>
                 {newsItem.preview}
               </p>
             </div>
           ))}
         </div>
+        <h4 className='news__title'>
+          Заказать уборку квартиры
+        </h4>
+        <Calculator />
+        <h4 className='news__title2'>
+          Живая служба поддержки
+        </h4>
+        <Contacts />
       </Container>
     </section>
   );

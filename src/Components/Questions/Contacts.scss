@@ -1,0 +1,17 @@
+.contacts {
+  @include center;
+  gap: 10px;
+  
+  &__button {
+  width: 200px;
+  height: 62px;
+  @include center;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: $white;
+  text-decoration: none;
+  gap: 13px;
+  }
+}
