@@ -1,0 +1,19 @@
+@import './CitiesBlock.scss';
+
+.cities {
+  padding: 135px 0;
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: $black;
+    margin: 0 0 30px 0;
+   }
+
+  &__block {
+    display: flex;
+    gap: 60px;
+  }
+}

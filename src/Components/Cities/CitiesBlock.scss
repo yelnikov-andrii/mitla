@@ -1,0 +1,30 @@
+.citiesBlock {
+  width: calc((100% - 120px) / 3);
+  
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+  }
+
+  &__coordsBlock {
+    @include center;
+    gap: 3px;
+
+  }
+
+  &__city {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: $black;
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: right;
+    color: $black;
+  }
+}

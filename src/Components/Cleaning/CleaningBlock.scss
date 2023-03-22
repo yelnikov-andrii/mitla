@@ -1,0 +1,17 @@
+.cleaningBlock {
+  background-color: $white;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: $black;
+  @include center;
+  text-align: center;
+  flex-direction: column;
+
+  &__additional {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

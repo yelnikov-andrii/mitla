@@ -1,0 +1,30 @@
+.feedback {
+  &__user {
+    @include center;
+    gap: 25px;
+    margin: 0 0 20px 0;
+  }
+
+  &__rating {
+    display: flex;
+    gap: 3px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: $white;
+    margin: 0 0 6px 0;
+  }
+
+  &__body {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: $white;
+    width: 50%;
+    margin: 0 auto 40px;
+  }
+}

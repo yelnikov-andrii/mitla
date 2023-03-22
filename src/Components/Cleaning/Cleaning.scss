@@ -1,0 +1,60 @@
+@import './CleaningBlock.scss';
+
+.cleaning {
+  padding: 0 0 135px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: $black;
+    margin: 0 0 22px 0;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+  }
+
+  &__button {
+    width: 25%;
+    border: none;
+    background: #FAFAFA;
+    width: 350px;
+    height: 80px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: $black;
+    
+    @include center;
+    gap: 18px;
+
+    &:hover {
+      background-color: #cecece;
+      color: $black;
+    }
+
+    &--active {
+      background: $red;
+      color: $white;
+
+      &:hover {
+        background: $red;
+        color: $white;
+      }
+    }
+  }
+
+  &__scheme {
+    padding: 117px 0 170px;
+    background-image: url('./bg.svg');
+  }
+
+  &__schemeBlock {
+    display: flex;
+  }
+}

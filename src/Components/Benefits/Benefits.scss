@@ -1,0 +1,24 @@
+@import './List.scss';
+@import './Offers.scss';
+
+.benefits {
+  padding: 170px 0 180px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: $black;
+    margin: 0 0 22px 0;
+  }
+
+  &__txt {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: $black;
+    margin: 0 0 60px 0;
+  }
+}

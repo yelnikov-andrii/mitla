@@ -1,0 +1,28 @@
+@import './Feedback.scss';
+
+.slider {
+  background-color: $greenBlue;
+  padding: 66px 0 135px;
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__button {
+    width: 260px;
+    height: 66px;
+    border: 1px solid $white;
+    border-radius: 4px;
+    background: transparent;
+    width: 260px;
+    height: 66px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: $white;
+  }
+}
