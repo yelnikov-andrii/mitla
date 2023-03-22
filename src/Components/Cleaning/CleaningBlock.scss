@@ -9,6 +9,12 @@
   text-align: center;
   flex-direction: column;
 
+  @media (max-width: 768px) {
+    width: 100% !important;
+    margin-left: 0 !important;
+    transform: translateY(0px) !important;
+ }
+
   &__additional {
     font-weight: 300;
     font-size: 14px;

@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-between;
     margin: 0 0 50px 0;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+   }
   }
 
   &__button {
@@ -18,6 +22,11 @@
     font-size: 18px;
     line-height: 22px;
     color: $black;
+
+    @media (max-width: 768px) {
+      justify-content: space-between;
+      width: 100%;
+   }
     
     @include center;
     gap: 18px;
@@ -54,5 +63,9 @@
   &__rooms {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+   }
   }
 }

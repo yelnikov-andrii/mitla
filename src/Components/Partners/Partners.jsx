@@ -65,7 +65,7 @@ export const Partners = () => {
         </h4>
         <div className='partners__list'>
           {images.map(image => (
-            <div className='partners__item'>
+            <div className='partners__item' key={image}>
               <img 
                 src={image}
                 alt=""

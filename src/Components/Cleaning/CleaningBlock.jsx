@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const CleaningBlock = ({ block }) => {
-  console.log(block.width)
   return (
     <div 
       className='cleaningBlock'
@@ -9,7 +8,7 @@ export const CleaningBlock = ({ block }) => {
         width: `${block.width}px`,
         height: `${block.height}px`,
         transform: `translateY(${block.y}px)`,
-        marginLeft: `${block.left}px`
+        marginLeft: `${block.left}%`
       }}
     >
       {block.txt}

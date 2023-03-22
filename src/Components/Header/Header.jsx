@@ -25,11 +25,11 @@ export const Header = () => {
   return (
     <Navbar expand="xxl" className='header'>
       <div className='container-fluid row'>
-        <div className='d-flex col-2'>
+        <div className='d-flex col-2 header__blockLogo'>
         <HeaderLogo />
         <HeaderMenuButton />
         </div>
-        <div className='d-flex col-2 justify-content-between'>
+        <div className='d-flex col-2 justify-content-between header__selectWrapper'>
         <HeaderSelect 
           options={['RU', 'PL', 'UKR', 'EN']}
           className="header__select"
@@ -39,24 +39,24 @@ export const Header = () => {
           className="header__select header__select--city"
         />
         </div>
-        <Nav className='header__contacts col-2'>
-          <Nav.Link className='header__contactLink'>
+        <nav className='header__contacts col-2'>
+          <a className='header__contactLink' href='tel:+48 797 524 604'>
           +48 797 524 604
-          </Nav.Link>
-          <Nav.Link>
+          </a>
+          <a href='/'>
             <img src={exclude} alt=""/>
-          </Nav.Link>
-          <Nav.Link>
+          </a>
+          <a href='/'>
             <img src={messanger} alt=""/>
-          </Nav.Link>
-          <Nav.Link>
+          </a>
+          <a href='/'>
             <img src={whatsapp} alt=""/>
-          </Nav.Link>
-        </Nav>
+          </a>
+        </nav>
         <Navbar.Collapse className='header__navbar col-4'>
         <Nav className="header__nav">
           {cleaningTypes.map(type => (
-            <Nav.Link className='header__link'>
+            <Nav.Link className='header__link' key={type}>
               <img src={cleaningType} alt="" />
               <span className='header__linktxt'>
                 {type}

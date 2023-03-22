@@ -5,16 +5,36 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
+  &__blockLogo {
+    @media (max-width: 768px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+   }
+  }
+
+  &__navbar {
+      @media (max-width: 2010px) {
+    order: 2;
+    justify-self: center;
+  }
+  }
+
   &__select {
     border: none;
     width: 85px;
     color: $black;
     font-weight: 600;
 
-
     &--city {
       width: 130px;
     }
+  }
+
+  &__selectWrapper {
+  @media (max-width: 768px) {
+     display: none;
+  }
   }
 
   &__contacts {
@@ -24,6 +44,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: $red;
+
+    @media (max-width: 1200px) {
+     display: none;
+  }
   }
 
   &__contactLink {
@@ -33,6 +57,7 @@
     font-size: 20px;
     line-height: 22px;
     color: $white;
+    text-decoration: none;
   }
 
   &__link {
@@ -50,6 +75,10 @@
   &__buttons {
     display: flex;
     gap: 10px;
+
+    @media (max-width: 768px) {
+      display: none;
+   }
   }
 
   &__partners {

@@ -31,6 +31,7 @@ export const Contacts = () => {
             background: `${contact.color}`
           }}
           href='/'
+          key={contact.name}
         >
           <img 
             src={contact.img}

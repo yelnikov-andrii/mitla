@@ -28,6 +28,7 @@ export const Cleaning = () => {
               onClick={(e) => {
                 setPartOfAppartment(button)
               }}
+              key={button}
             >
               {button}
             </button>
@@ -41,7 +42,7 @@ export const Cleaning = () => {
               width: '321',
               height: '108',
               y: 0,
-              left: 100,
+              left: 5,
             }}
           />
           <CleaningBlock 
@@ -50,7 +51,7 @@ export const Cleaning = () => {
               width: '261',
               height: '80',
               y: -50,
-              left: 145,
+              left: 5,
             }}
           />
         </div>
@@ -61,7 +62,7 @@ export const Cleaning = () => {
               width: 261,
               height: 80,
               y: 0,
-              left: 447,
+              left: 10,
               additional: '( р-р до 1м.кв., если р-р зеркала больше, то закажи доп. услугу)'
             }}
           />
@@ -73,7 +74,7 @@ export const Cleaning = () => {
               width: 230,
               height: 80,
               y: -30,
-              left: 818,
+              left: 55,
             }}
           />
         </div>
@@ -84,7 +85,7 @@ export const Cleaning = () => {
               width: 361,
               height: 80,
               y: 26,
-              left: 51,
+              left: 3,
             }}
           />
           <CleaningBlock 
@@ -93,7 +94,7 @@ export const Cleaning = () => {
               width: 321,
               height: 80,
               y: 66,
-              left: 500,
+              left: 1,
             }}
           />
         </div>
@@ -104,7 +105,7 @@ export const Cleaning = () => {
               width: 321,
               height: 80,
               y: 116,
-              left: 675,
+              left: 1,
             }}
           />
         </div>

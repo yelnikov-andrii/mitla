@@ -6,7 +6,7 @@ export const HeaderSelect = ({ options, className }) => {
     <div className='header__selectWrapper'>
       <Form.Select className={className}>
       {options.map(option => (
-        <option>
+        <option key={option}>
           {option}
         </option>
       ))}

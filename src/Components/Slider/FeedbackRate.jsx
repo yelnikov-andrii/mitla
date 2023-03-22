@@ -4,7 +4,6 @@ import star from './star.svg';
 export const FeedbackRate = ({ count }) => {
   const ratings = new Array(count);
   ratings.fill(star);
-  console.log(ratings, count)
 
   return (
     <div className='feedback__rating'>

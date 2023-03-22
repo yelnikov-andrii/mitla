@@ -6,6 +6,10 @@
   padding: 0 28px;
   border-right: 1px solid #ECECEC;
 
+  @media (max-width: 768px) {
+    padding: 0 5px;
+  }
+
   &__button {
     border: none;
     background-color: transparent;
@@ -13,11 +17,19 @@
     height: 100%;
     
     @include center;
+
+    @media (max-width: 768px) {
+      font-size: 22px;
+    }
   }
 
   &__txt {
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 }

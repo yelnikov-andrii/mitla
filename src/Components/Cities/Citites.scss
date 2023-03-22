@@ -15,5 +15,9 @@
   &__block {
     display: flex;
     gap: 60px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+   }
   }
 }

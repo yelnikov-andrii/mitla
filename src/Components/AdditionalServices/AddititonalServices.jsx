@@ -56,7 +56,7 @@ export const AddititonalServices = () => {
       </Container>
       <ul className='additionalServices__list'>
         {additionalServices.map(service => (
-          <li className='services__item'>
+          <li className='services__item' key={service.name}>
             <img 
               src={service.img}
               alt=""
@@ -64,9 +64,9 @@ export const AddititonalServices = () => {
             />
             <p className='services__name'>
               {service.name}
-              <p className='services__additional'>
+              <span className='services__additional'>
                 {service.additional && `(${service.additional})`}
-              </p>
+              </span>
             </p>
             <p className='services__price'>
               {`${service.price} zł`}

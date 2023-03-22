@@ -92,6 +92,7 @@ export const Questions = () => {
             <Accordion.Item 
               eventKey={question.key}
               className='questions__item'
+              key={question.key}
             >
             <Accordion.Header>
               <span className='questions__question'> 
@@ -115,6 +116,7 @@ export const Questions = () => {
                 background: `${contact.color}`
               }}
               href='/'
+              key={contact.name}
             >
               <img 
                 src={contact.img}

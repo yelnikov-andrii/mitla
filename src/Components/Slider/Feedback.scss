@@ -26,5 +26,9 @@
     color: $white;
     width: 50%;
     margin: 0 auto 40px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 }

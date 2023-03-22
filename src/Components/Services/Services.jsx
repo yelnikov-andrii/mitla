@@ -48,7 +48,7 @@ export const Services = () => {
         </h3>
         <ul className='services__list'>
           {services.map(service => (
-            <li className='services__item'>
+            <li className='services__item' key={service.name}>
               <img 
                 src={service.img}
                 alt=""

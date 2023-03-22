@@ -49,6 +49,7 @@ export const Offers = () => {
           button={button}
           discount={discount}
           setDiscount={setDiscount}
+          key={button.name}
         />
       ))}
     </div>
@@ -56,7 +57,8 @@ export const Offers = () => {
       {rooms.map(room => (
         <Room 
           room={room} 
-          discount={discount} 
+          discount={discount}
+          key={room.name}
         />
       ))}
     </div>

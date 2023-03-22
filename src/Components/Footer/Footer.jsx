@@ -89,7 +89,7 @@ export const Footer = () => {
             </div>
             <ul className='footer__list'>
               {links.map(link => (
-                <li>
+                <li key={link}>
                   {link}
                 </li>
               ))}
@@ -103,7 +103,7 @@ export const Footer = () => {
             </div>
             <ul className='footer__list'>
               {links2.map(link => (
-                <li>
+                <li key={link}>
                   {link}
                 </li>
               ))}
@@ -117,7 +117,7 @@ export const Footer = () => {
             </div>
             <ul className='footer__list'>
               {links3.map(link => (
-                <li>
+                <li key={link}>
                   {link}
                 </li>
               ))}

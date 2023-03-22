@@ -32,7 +32,7 @@ export const List = () => {
   return (
     <ul className='list'>
       {list.map(listItem => (
-        <li className='list__item'>
+        <li className='list__item' key={listItem.name}>
             <img 
               src={listItem.img}
               alt=""

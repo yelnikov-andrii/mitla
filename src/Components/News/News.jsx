@@ -35,7 +35,7 @@ export const News = () => {
         </h4>
         <div className='news__list'>
           {news.map(newsItem => (
-            <div className='news__item'>
+            <div className='news__item' key={newsItem.name}>
               <img 
                 src={newsItem.img}
                 alt=""

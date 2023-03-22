@@ -5,7 +5,7 @@ export const CitiesBlock = ({cities}) => {
   return (
     <div className='citiesBlock'>
       {cities.map(city => (
-        <div className='citiesBlock__item'>
+        <div className='citiesBlock__item' key={city.name}>
           <div className='citiesBlock__coordsBlock'>
           <img 
             src={coords}

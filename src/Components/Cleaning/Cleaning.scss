@@ -52,9 +52,16 @@
   &__scheme {
     padding: 117px 0 170px;
     background-image: url('./bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   &__schemeBlock {
     display: flex;
+
+    @media (max-width: 768px) {
+      width: 100%;
+   }
   }
 }
